@@ -1,12 +1,18 @@
-
 package server;
 
-import java.net.*;
-
-public class Player {
+public class Player extends Account{
 	String lastName;
 	String firstName;
 	int age;
-	String password;
-	InetAddress ipAddress;
+	
+	public void createPlayerAccount(){
+		
+	}
+	
+	public void playerSignIn(){
+		
+	}
+	public void playerSignOut(){
+		
+	}
 }
